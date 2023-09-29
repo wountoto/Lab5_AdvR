@@ -1,21 +1,18 @@
-#'@title 
+#'@title Line plot showing magnitude of all municipal spend
 #'
-#'@name 
+#'@name muniLines
 #'
-#'@param 
+#'@description
+#'Visualizes municipal spend over the last 10 years for a chosen municipality via lineplot.
+#'Different type of spends are colored accordingly.
 #'
+#'@param muni A character vector denoting what municipality is to be analyzed
 #'
-#'@param 
+#'@param df A dataset containing the municipality of interest
 #'
-#'
-#'@returns 
-#'
+#'@returns A line plot showing the spending for the time period
 #'
 #'@export
-#'
-#'@source
-#'
-#'
 #'
 
 muniLines <-

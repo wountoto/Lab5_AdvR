@@ -1,22 +1,24 @@
-#'@title 
+#'@title Linear model creation and analyse
 #'
-#'@name 
+#'@name muniModel
 #'
-#'@param 
+#'@description 
+#' Used to create a linear model and subsequently return a summary printout and distribution plot for the model.
+#' The object can handle both simple and multiple linear regressions and handle both numeric and character variables.'
 #'
 #'
-#'@param 
+#'@param y The independent variable to model for
 #'
+#'@param x The dependent variables to explain the independent variable
 #'
-#'@returns 
+#'@param df A dataset containing the supplied variables
+#'
+#'@returns A summary printout and distribution plot
 #'
 #'
 #'@export
 #'
-#'@source
-#'
-#'
-#'
+
 muniModel <-
 function(y,form,df){
   if(!(y %in% df$kpi || form %in% df$kpi)){

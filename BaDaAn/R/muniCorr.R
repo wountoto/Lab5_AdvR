@@ -1,21 +1,17 @@
-#'@title 
+#'@title Correlation analysis of the municipal spends
 #'
-#'@name 
+#'@name muniCorr
 #'
-#'@param 
+#'@description
+#'Performs a correlation analysis for the total municipal spend over the time period by providing a correlation table and scatterplot.
+#'All variables are included in the printout.
 #'
+#'@param df The dataset which includes variables to be analyzed
 #'
-#'@param 
-#'
-#'
-#'@returns 
+#'@returns A table and a plot showing correlations between variables.
 #'
 #'
 #'@export
-#'
-#'@source
-#'
-#'
 #'
 
 muniCorr <-
