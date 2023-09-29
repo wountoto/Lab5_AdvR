@@ -1,3 +1,23 @@
+#'@title 
+#'
+#'@name 
+#'
+#'@param 
+#'
+#'
+#'@param 
+#'
+#'
+#'@returns 
+#'
+#'
+#'@export
+#'
+#'@source
+#'
+#'
+#'
+
 muniCorr <-
 function(df){
   df1 <- tidyr::pivot_wider(df,id_cols = c(municipality,period) ,names_from = kpi,values_from=values)

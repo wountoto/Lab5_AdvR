@@ -1,3 +1,22 @@
+#'@title 
+#'
+#'@name 
+#'
+#'@param 
+#'
+#'
+#'@param 
+#'
+#'
+#'@returns 
+#'
+#'
+#'@export
+#'
+#'@source
+#'
+#'
+#'
 muniCompare <-
 function(muni_vec,df, var){
   

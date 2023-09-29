@@ -1,3 +1,22 @@
+#'@title 
+#'
+#'@name 
+#'
+#'@param 
+#'
+#'
+#'@param 
+#'
+#'
+#'@returns 
+#'
+#'
+#'@export
+#'
+#'@source
+#'
+#'
+#'
 muniModel <-
 function(y,form,df){
   if(!(y %in% df$kpi || form %in% df$kpi)){
