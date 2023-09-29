@@ -4,9 +4,9 @@
 \name{BaDaAn-package}
 \alias{BaDaAn}
 \alias{BaDaAn-package}
-\title{BaDaAn: Basic data analysis for minicipality dataset from kolada}
+\title{BaDaAn: Basic data analysis for municipality data from Kolada}
 \description{
-This package is used to create a linear model by supplying the formula and dataset. The model is calculated using least squares and returns an object of class RC. Within the object you can call the following methods to analyze your model.
+This package serves as an introduction to basic data analysis. Data is based on an API from Kolada involving data over municipal spend for year 2013-2022 in Swedens four largest municipalities - Stockholm, Göteborg, Malmö, and Uppsala. The analysis starts with visualizing how the expenditure magnitudes have changed over time by providing the user with two forms of line plots. One line plot shows all spend variables for one municipality, and one line plot compares municipalities for a chosen variable. The package also provides a function to analyze correlations between variables both by a table and a scatter plot. The final functionality is the ability to create a linear model from chosen variables and return a summary printout as well as distribution plot of the model.
 }
 \seealso{
 Useful links:
