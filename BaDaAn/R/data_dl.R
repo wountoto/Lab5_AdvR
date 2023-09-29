@@ -1,23 +1,25 @@
-#'@title 
+#'@title Data downloader
 #'
-#'@name 
+#'@name data_dl
 #'
-#'@param 
+#'@description 
+#' Downloading data with an api to kolada, variables and years are 
+#' chosen and translated to English
 #'
-#'
-#'@param 
-#'
-#'
-#'@returns 
+#'@return The function returns a data frame with 4 columns and 440 rows
 #'
 #'
 #'@export
 #'
-#'@source
+#'@imports httr jsonlite
 #'
+#'@source \url('https://www.kolada.se/?focus=16585')
 #'
+#'@examples
+#' # example of how to use the function
+#'df <- data_dl()
 #'
-#'
+
 
 data_dl <-
 function(){

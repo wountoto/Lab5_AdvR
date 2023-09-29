@@ -1,22 +1,30 @@
-#'@title 
+#'@title Compare municipalities with a plot
 #'
-#'@name 
+#'@name muniCompare
 #'
-#'@param 
-#'
-#'
-#'@param 
+#'@param muni_vec A character vector of municipalities in the data frame
 #'
 #'
-#'@returns 
+#'@param df The data frame downloaded with data_dl()
+#'
+#'@param var A string of a KPI variable in the data frame
+#'
+#'
+#'@returns A time serie plot of the chosen municipalities(muni_vec) for a variable
+#'from the data frame
 #'
 #'
 #'@export
 #'
-#'@source
+#'@import ggplot2
 #'
 #'
+#'@examples
+#'# This is en example of how to use the function
+#'df <- data_dl() # download the data first
+#'muniCompare(c('uppsala','stockholm'), df,'residents')
 #'
+
 muniCompare <-
 function(muni_vec,df, var){
   
