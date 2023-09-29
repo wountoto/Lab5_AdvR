@@ -15,6 +15,7 @@
 #'
 #'@returns A summary printout and distribution plot
 #'
+#'@import tidyr ggplot2
 #'
 #'@export
 #'
