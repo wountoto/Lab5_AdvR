@@ -11,7 +11,7 @@
 #'
 #'@export
 #'
-#'@imports httr jsonlite
+#'@import httr jsonlite
 #'
 #'@source \url('https://www.kolada.se/?focus=16585')
 #'

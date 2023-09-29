@@ -13,6 +13,8 @@
 #'
 #'@export
 #'
+#'@import tidyr graphics
+#'
 
 muniCorr <-
 function(df){
