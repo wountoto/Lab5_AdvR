@@ -12,6 +12,8 @@
 #'
 #'@returns A line plot showing the spending for the time period
 #'
+#'@import ggplot2
+#'
 #'@export
 #'
 

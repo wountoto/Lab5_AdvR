@@ -3,26 +3,28 @@ df <- data_dl()
 
 test_that('Check that the data is correct', { 
 
-  expected_true(c('kpi','municipality','period','values') %in% colnames(df))        
-  
+  expect_true('kpi' %in% colnames(df))        
+  expect_true('municipality' %in% colnames(df))
+  expect_true('period' %in% colnames(df))
+  expect_true('values' %in% colnames(df))
   
   })
 
 
-test_hat('Checking inputs for muniLines',{
+test_that('Checking inputs for muniLines',{
   expect_error(p <- muniLines('Götebörg', df))
   expect_error(p <- muniLines('Göteborg',iris))
 })
 
 
-test_hat('Checking inputs for muniCompare',{
+test_that('Checking inputs for muniCompare',{
   expect_error(p <- muniLines('Götebörg', df,'care_spend' ))
   expect_error(p <- muniLines('Göteborg',iris,'care_spend'))
   expect_error(p <- muniLines('Göteborg',df,'care_spenddrups'))
 })
 
 
-test_hat('Checking inputs for muniCorr',{
+test_that('Checking inputs for muniCorr',{
   expect_error(p <- muniCorr(iris))
 
 })
