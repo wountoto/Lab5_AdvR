@@ -9,7 +9,7 @@
 #'
 #'@param y The independent variable to model for
 #'
-#'@param x The dependent variables to explain the independent variable
+#'@param form The dependent variables to explain the independent variable
 #'
 #'@param df A dataset containing the supplied variables
 #'
