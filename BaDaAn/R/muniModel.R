@@ -17,6 +17,8 @@
 #'
 #'@import tidyr ggplot2
 #'
+#'@importFrom stats lm
+#'
 #'@export
 #'
 

@@ -9,9 +9,9 @@ muniModel(y, form, df)
 \arguments{
 \item{y}{The independent variable to model for}
 
-\item{df}{A dataset containing the supplied variables}
+\item{form}{The dependent variables to explain the independent variable}
 
-\item{x}{The dependent variables to explain the independent variable}
+\item{df}{A dataset containing the supplied variables}
 }
 \value{
 A summary printout and distribution plot

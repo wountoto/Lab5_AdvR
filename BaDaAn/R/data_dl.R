@@ -13,7 +13,7 @@
 #'
 #'@import httr jsonlite
 #'
-#'@source \url('https://www.kolada.se/?focus=16585')
+#'@source \url{'https://www.kolada.se/?focus=16585'}
 #'
 #'@examples
 #' # example of how to use the function
@@ -41,8 +41,8 @@ function(){
   df$values <- as.numeric(df$values)
   
   df$municipality[df$municipality == "0180"] <- "stockholm"
-  df$municipality[df$municipality == "1280"] <- "malmö"
-  df$municipality[df$municipality == "1480"] <- "göteborg"
+  df$municipality[df$municipality == "1280"] <- "malmoe"
+  df$municipality[df$municipality == "1480"] <- "goeteborg"
   df$municipality[df$municipality == "0380"] <- "uppsala"
   
   df$kpi[df$kpi == "N40011"] <- "labor_spend"
