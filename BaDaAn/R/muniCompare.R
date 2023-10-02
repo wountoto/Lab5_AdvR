@@ -27,7 +27,8 @@
 
 muniCompare <-
 function(muni_vec,df, var){
-  
+  stopifnot(tolower(muni_vec) %in% df$municipality,colnames(df) == c('kpi','municipality','period','values'),
+            tolower(var) %in% df$kpi)
   
   # picking out data for the choosen municipality
   indice <- df[df$municipality %in% muni_vec,] 

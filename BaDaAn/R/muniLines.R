@@ -19,8 +19,10 @@ muniLines <-
 function(muni,df){
   
   # cheking the input which can give an error message back to the user
-  if((!tolower(muni) %in% df$municipality)==TRUE || !is.data.frame(df)){
-    print('Check the spelling or choose another municipality')
+  if((!tolower(muni) %in% df$municipality)==TRUE || !is.data.frame(df)||
+     nrow(df) != 440 && ncol(df) != 4){
+    print('Check the spelling or choose another municipality, or use data_dl() to get
+          the correct dataset')
     stop()
   }
   # Changing to lowercase 
