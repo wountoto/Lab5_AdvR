@@ -3,7 +3,6 @@ Type: Package
 Title: Basic data analysis for municipality data from Kolada
 Version: 1.0.0
 Date: 2023-09-29
-Author: Who wrote it
 Authors@R: c(
 	person(given ="Johannes",family="Hedström",email = "johed883@student.liu.se",role = c("aut", "cre")),
 	person(given="Mikael",family="Montén",email = "mikmo937@student.liu.se",role = c("aut")))
