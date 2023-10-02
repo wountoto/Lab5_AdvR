@@ -1,0 +1,32 @@
+---
+title: "BaDaAn-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{BaDaAn-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+devtools::load_all()
+```
+
+# Introduction
+
+This package is used to help people interested in data analysis to get a basic understanding of how it could work. The package is composed of data from Swedens four biggest municipalities; Stockholm, Uppsala, Malmö, and Göteborg. This data is collected via the Kolada API. The data analysis is a stepwize journey for the user to follow along and try to draw their own conclusions regarding what the data says.
+
+```{r, echo = FALSE}
+library(BaDaAn)
+
+
+
+
+```
+
