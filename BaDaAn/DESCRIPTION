@@ -1,6 +1,6 @@
 Package: BaDaAn
 Type: Package
-Title: Basic data analysis for municipality data from Kolada
+Title: Basic Data Analysis for municipality data from Kolada
 Version: 1.0.0
 Date: 2023-09-29
 Authors@R: c(

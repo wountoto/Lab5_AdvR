@@ -4,7 +4,7 @@
 \alias{data_dl}
 \title{Data downloader}
 \source{
-\url{'https://www.kolada.se/?focus=16585'}
+\url{https://www.kolada.se/?focus=16585}
 }
 \usage{
 data_dl()

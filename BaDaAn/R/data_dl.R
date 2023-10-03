@@ -13,7 +13,7 @@
 #'
 #'@import httr jsonlite
 #'
-#'@source \url{'https://www.kolada.se/?focus=16585'}
+#'@source \url{https://www.kolada.se/?focus=16585}
 #'
 #'@examples
 #' # example of how to use the function
