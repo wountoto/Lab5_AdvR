@@ -35,7 +35,7 @@ function(muni,df){
   indice <- indice[indice$kpi != 'net_migration',]
   # Time serie graph for the municipality
   base::print(ggplot2::ggplot(indice, ggplot2::aes(x=period, y=values, color=kpi)) +
-                ggplot2::geom_line(size=1.5) +
+                ggplot2::geom_line(linewidth=1.5) +
                 ggplot2::scale_x_continuous(breaks= seq(min(indice$period), 
                                                         max(indice$period), by=2)) +
                 ggplot2::scale_color_discrete("KPI") +
